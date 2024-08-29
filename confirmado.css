@@ -1,0 +1,41 @@
+/* Estilo para o contêiner de confirmação */
+.confirmation-container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    width: 300px;
+    max-width: 100%;
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Estilo para o título da página de confirmação */
+.confirmation-container h1 {
+    color: #5151E5;
+    margin-bottom: 20px;
+}
+
+/* Estilo para o parágrafo da página de confirmação */
+.confirmation-container p {
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+/* Estilo para o botão de voltar */
+.btn-voltar {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #5151E5;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+/* Efeito ao passar o mouse sobre o botão de voltar */
+.btn-voltar:hover {
+    background-color: #333;
+}

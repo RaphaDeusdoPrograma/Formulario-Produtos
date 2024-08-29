@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Produtos</title>
+    <link rel="stylesheet" href="produto.css">
+</head>
+<body>
+    <form action="confirmado.html" method="get">
+        <label for="fname">Nome do Produto</label><br>
+        <input type="text" id="fname" name="fname" required><br>
+        
+        <label for="lname">ID do Produto</label><br>
+        <input type="text" id="lname" name="lname" required><br>
+
+        <p>EMPRESAS E ASSOCIADOS</p>
+
+        <input type="radio" id="Toyota" name="Empresas" value="Toyota" required>
+        <label for="Toyota">Toyota Motor Corp</label><br>
+
+        <input type="radio" id="Mercedes" name="Empresas" value="Mercedes" required>
+        <label for="Mercedes">Mercedes Benz</label><br>
+
+        <input type="radio" id="Ford" name="Empresas" value="Ford" required>
+        <label for="Ford">Ford Motor Co</label><br>
+
+        <p>TIPOS DE PRODUTOS</p>
+
+        <input type="radio" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1">Fabricados</label><br>
+
+        <input type="radio" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2">Exportados</label><br>
+
+        <input type="radio" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3">Importados</label><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
