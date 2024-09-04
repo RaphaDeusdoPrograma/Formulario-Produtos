@@ -16,7 +16,7 @@ form {
     padding: 20px;
     border-radius: 12px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-    width: 300px;
+    width: 350px; /* Aumentei a largura do formulário */
     max-width: 100%;
     animation: fadeIn 1s ease-in-out;
 }
@@ -37,19 +37,29 @@ label {
     transition: color 0.3s ease;
 }
 
-/* Estilo dos inputs de texto */
-input[type="text"] {
-    width: calc(100% - 20px);
+/* Estilo do select */
+select {
+    width: 100%; /* O select agora ocupa toda a largura do form */
     padding: 10px;
     margin: 8px 0;
     border-radius: 6px;
     border: 1px solid #ccc;
     box-sizing: border-box;
+    font-size: 16px;
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    background-color: #f9f9f9;
+    color: #333;
+    appearance: none;
+    background-image: url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 5"><path fill="%23333" d="M2 0L0 2h4zM0 3l2 2 2-2z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 10px;
+    white-space: nowrap; /* Evita que o texto quebre para a linha seguinte */
+    overflow-x: auto; /* Adiciona rolagem horizontal se necessário */
 }
 
-/* Efeito ao focar nos inputs de texto */
-input[type="text"]:focus {
+/* Efeito ao focar no select */
+select:focus {
     border-color: #5151E5;
     outline: none;
     box-shadow: 0 0 8px rgba(81, 81, 229, 0.5);
